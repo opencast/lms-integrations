@@ -112,7 +112,7 @@ In the LMS, it is possible to upload multiple videos at once for processing inst
 
 ### <a name="user-content-tags"></a>Tags
 
-TBA
+TBD
 
 ### <a name="user-content-sharing"></a>Linksharing / Direct access
 
@@ -120,7 +120,7 @@ In the LMS, it is possible to set the permissions of an existing video in a way 
 
 ### <a name="user-content-import"></a>Im- / export of LMS data
 
-TBA
+TBD
 
 ### <a name="user-content-custwf"></a>Start a custom workflow
 
@@ -138,7 +138,7 @@ In the LMS, videos are played with the Paella Player (which is the standard play
 
 In the LMS, it is possible to download existing videos to the user's computer.
 
-TBA: Clarify if the download is located in the Integration plugin or in the Paella player, which videos can be downloaded (the original or the processed video) and which LMS roles (student, teacher) can use the download.
+TBD: Clarify if the download is located in the Integration plugin or in the Paella player, which videos can be downloaded (the original or the processed video) and which LMS roles (student, teacher) can use the download.
 
 ### <a name="user-content-annot"></a>Annotation tool integration
 
@@ -164,7 +164,7 @@ The communication between the LMS and Opencast is built on the Opencast PHP libr
 
 ### <a name="user-content-discover"></a>Opencast feature discovering
 
-TBA
+TBD
 
 ### <a name="user-content-listlang"></a>List provider for languages
 
@@ -184,7 +184,7 @@ The LMS and Opencast should share a common understanding which videos should be 
 
 ### Enforcing permissions (against known IDs)
 
-TBA
+TBD
 
 ### <a name="user-content-tenants"></a>Multi tenancy support
 
@@ -192,7 +192,7 @@ The LMS is able to communicate with multiple Opencast instances or with multiple
 
 ### <a name="user-content-track"></a>Tracking protection circumvention
 
-TBA
+TBD
 
 ## Status of this document
 
