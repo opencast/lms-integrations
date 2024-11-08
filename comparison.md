@@ -19,10 +19,10 @@ Please note that while this document tries hard to compare the features across t
 | ➞ Of own lectures / in own lecture halls           | ✗                      |                    |            |        |      |            |        |
 | ➞ At arbitrary times / in arbitrary lecture halls  | ✗                      |                    |            |        |      |            |        |
 | Metadata<br>[Details](#user-content-meta)                       | ✓                      | ✓                  | ✓          |        |      |            |        |
-| Subtitles<br>[Details](#user-content-subtit)                    | ✓                      | ✗ (In development) | ✓          |        |      |            |        |
+| Subtitles<br>[Details](#user-content-subtit)                    | ✓                      | ✓                  | ✓          |        |      |            |        |
 | Editor<br>[Details](#user-content-editor)                       | ✓                      | ✓                  | ✓          |        |      |            |        |
 | Playlists<br>[Details](#user-content-playlist)                  | ✗                      | ✗                  | ✓          |        |      |            |        |
-| Bulk actions<br>[Details](#user-content-bulk)                   | ✗                      | ✗                  | ✓          |        |      |            |        |
+| Bulk actions<br>[Details](#user-content-bulk)                   | - (In dev.)            | ✗                  | ✓          |        |      |            |        |
 | Tags<br>[Details](#user-content-tags)                           | ✗                      | ✗                  | ✓          |        |      |            |        |
 | Linksharing / Direct access<br>[Details](#user-content-sharing) | ✓                      |                    | ✓          |        |      |            |        |
 | Batch upload<br>[Details](#user-content-batch)                  | ✓                      | ✗                  | ✗          |        |      |            |        |
