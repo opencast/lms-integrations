@@ -22,7 +22,7 @@ Please note that while this document tries hard to compare the features across t
 | Subtitles<br>[Details](#user-content-subtit)                    | ✓                      | ✓                  | ✓          |        |      |            |        |
 | Editor<br>[Details](#user-content-editor)                       | ✓                      | ✓                  | ✓          |        |      |            |        |
 | Playlists<br>[Details](#user-content-playlist)                  | ✗                      | ✗                  | ✓          |        |      |            |        |
-| Bulk actions<br>[Details](#user-content-bulk)                   | - (In dev.)            | ✗                  | ✓          |        |      |            |        |
+| Bulk actions<br>[Details](#user-content-bulk)                   | ✓                      | ✗                  | ✓          |        |      |            |        |
 | Tags<br>[Details](#user-content-tags)                           | ✗                      | ✗                  | ✓          |        |      |            |        |
 | Linksharing / Direct access<br>[Details](#user-content-sharing) | ✓                      |                    | ✓          |        |      |            |        |
 | Batch upload<br>[Details](#user-content-batch)                  | ✓                      | ✗                  | ✗          |        |      |            |        |
