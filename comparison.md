@@ -70,7 +70,7 @@ Please note that while this document tries hard to compare the features across t
 | ➞ Shibboleth<br>[Details](#user-content-perms)                      | ✗         | ✓                                | ✗                         |        |      |            |        |
 | Enforcing permissions (against known IDs)              | ✓         | ✗                                | ✓                         |        |      |            |        |
 | Multi tenancy support<br>[Details](#user-content-tenants)           | ✓         | ✗                                | ✓                         |        |      |            |        |
-| Tracking protection circumvention<br>[Details](#user-content-track) | ✗         | ✗ (Not needed)                   | ✓                         |        |      |            |        |
+| Tracking protection circumvention<br>[Details](#user-content-track) | ✓ (Filter Plugin)         | ✗ (Not needed)                   | ✓                         |        |      |            |        |
 | Maintenance Support<br>[Details](#user-content-maintenance-support) | ✓         | ✗                  | ✗          |        |      |            |        |
 
 ## Feature details
@@ -198,7 +198,11 @@ The LMS is able to communicate with multiple Opencast instances or with multiple
 
 ### <a name="user-content-track"></a>Tracking protection circumvention
 
-TBD
+The LMS should be able to perform LTI authentication calls to Opencast without being affected by the Tracking Protection security features in newer versions of web browsers.
+
+#### Server-level solution (UPDATE of 17.01.2025)
+
+As a server-level solution to this issue, it is recommended to configure Partitioned Cookies in the Opencast server settings, specifically in the Nginx configuration of the Opencast server.
 
 ### <a name="user-content-maintenance-support"></a>Maintenance Support
 
