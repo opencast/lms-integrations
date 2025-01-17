@@ -48,6 +48,7 @@ Please note that while this document tries hard to compare the features across t
 | Opencast Studio integration<br>[Details](#user-content-studio) | ✓      | ✓     | ✓       |        |      |            |        |
 | ➞ Via LTI<br>[Details](#user-content-studio)                   | ✓      | ✗     | ✓       |        |      |            |        |
 | ➞ Via Shibboleth<br>[Details](#user-content-studio)            | ✗      | ✓     | ✗       |        |      |            |        |
+| ➞ ACL Over Studio<br>[Details](#user-content-acl-over-studio)  | ✗      | ✓     | ✗       |        |      |            |        |
 | Tobira integration<br>[Details](#user-content-tobira)          | ✗      | ✓     | ✗       |        |      |            |        |
 
 ### Technical features
@@ -70,6 +71,7 @@ Please note that while this document tries hard to compare the features across t
 | Enforcing permissions (against known IDs)              | ✓         | ✗                                | ✓                         |        |      |            |        |
 | Multi tenancy support<br>[Details](#user-content-tenants)           | ✓         | ✗                                | ✓                         |        |      |            |        |
 | Tracking protection circumvention<br>[Details](#user-content-track) | ✗         | ✗ (Not needed)                   | ✓                         |        |      |            |        |
+| Maintenance Support<br>[Details](#user-content-maintenance-support) | ✓         | ✗                  | ✗          |        |      |            |        |
 
 ## Feature details
 
@@ -151,6 +153,10 @@ From the LMS, it is possible to record a video in Opencast Studio, process it di
 [See details in the Opencast documentation](https://docs.opencast.org/r/16.x/admin/#configuration/studio/)
 [See a demo installation of Opencast Studio](https://studio.opencast.org/)
 
+#### <a name="user-content-acl-over-studio"></a>ACL Over Studio
+
+The LMS is able pass user ACLs via the link to Opencast Studio using the query string.
+
 ### <a name="user-content-tobira"></a>Tobira integration
 
 From the LMS, it is possible to publish a video in Tobira.
@@ -193,6 +199,10 @@ The LMS is able to communicate with multiple Opencast instances or with multiple
 ### <a name="user-content-track"></a>Tracking protection circumvention
 
 TBD
+
+### <a name="user-content-maintenance-support"></a>Maintenance Support
+
+The LMS is able to fetch the maintenance data from Opencast and syncronize its maintenance period with Opencast.
 
 ## Status of this document
 
