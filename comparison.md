@@ -170,7 +170,7 @@ The communication between the LMS and Opencast is built on the Opencast PHP libr
 
 ### <a name="user-content-discover"></a>Opencast feature discovering
 
-TBD
+The LMS will discover the resources and assets associated with an event to extract specific desired values, such as links or metadata. For example, in ILIAS, there is a mechanism to automatically retrieve a video link from event publications in an efficient and structured manner. Administrators can configure the player publication settings by specifying details such as the channel ID, media type, MIME type, and other parameters. This configuration instructs the plugin to extract the desired link from the event's publications.
 
 ### <a name="user-content-listlang"></a>List provider for languages
 
