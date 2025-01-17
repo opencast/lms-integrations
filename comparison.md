@@ -26,7 +26,7 @@ Please note that while this document tries hard to compare the features across t
 | Tags<br>[Details](#user-content-tags)                           | ✗                      | ✗                  | ✓          |        |      |            |        |
 | Linksharing / Direct access<br>[Details](#user-content-sharing) | ✓                      |                    | ✓          |        |      |            |        |
 | Batch upload<br>[Details](#user-content-batch)                  | ✓                      | ✗                  | ✗          |        |      |            |        |
-| Backup and Im- / export of Opencast stuff in LMS courses<br>[Details](#user-content-import)     | ✓                      | ✗                  | ✓ (Partly) |        |      |            |        |
+| Backup and Im- / export of Opencast stuff in LMS courses<br>[Details](#user-content-backup-im-export)     | ✓                      | ✗                  | ✓ (Partly) |        |      |            |        |
 | Start a custom workflow<br>[Details](#user-content-custwf)      | ✓                      | ✓                  | ✗          |        |      |            |        |
 
 ### Video playback features
