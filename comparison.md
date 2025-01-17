@@ -114,7 +114,7 @@ In the LMS, it is possible to upload multiple videos at once for processing inst
 
 ### <a name="user-content-tags"></a>Tags
 
-TBD
+The LMS allows users to tag or label Opencast videos, enabling them to later sort and retrieve videos based on the desired tags.
 
 ### <a name="user-content-sharing"></a>Linksharing / Direct access
 
@@ -122,7 +122,7 @@ In the LMS, it is possible to set the permissions of an existing video in a way 
 
 ### <a name="user-content-backup-im-export"></a>Backup and Im- / export of Opencast stuff in LMS courses 
 
-The LMS is able to backup, import and export Opencast Series/Videos from one course to another either by event duplication or ACL Change method.
+The LMS can back up, import, and export Opencast series and videos between courses. This can be achieved through event duplication or by modifying the Access Control List (ACL) settings.
 
 ### <a name="user-content-custwf"></a>Start a custom workflow
 
