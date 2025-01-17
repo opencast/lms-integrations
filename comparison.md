@@ -120,9 +120,9 @@ TBD
 
 In the LMS, it is possible to set the permissions of an existing video in a way that it is publicly accessible. Additionally, a direct access URL is generated with can be handed over to non-LMS users for watching the video.
 
-### <a name="user-content-import"></a>Im- / export of LMS data
+### <a name="user-content-import"></a>Im- / export of LMS data 
 
-TBD
+The LMS is able to backup, import and export Opencast Series/Videos from one course to another either by event duplication or ACL Change method.
 
 ### <a name="user-content-custwf"></a>Start a custom workflow
 
