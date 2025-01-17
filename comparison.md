@@ -26,7 +26,7 @@ Please note that while this document tries hard to compare the features across t
 | Tags<br>[Details](#user-content-tags)                           | ✗                      | ✗                  | ✓          |        |      |            |        |
 | Linksharing / Direct access<br>[Details](#user-content-sharing) | ✓                      |                    | ✓          |        |      |            |        |
 | Batch upload<br>[Details](#user-content-batch)                  | ✓                      | ✗                  | ✗          |        |      |            |        |
-| Im- / export of LMS data<br>[Details](#user-content-import)     | ✓                      | ✗                  | ✓ (Partly) |        |      |            |        |
+| Backup and Im- / export of Opencast stuff in LMS courses<br>[Details](#user-content-import)     | ✓                      | ✗                  | ✓ (Partly) |        |      |            |        |
 | Start a custom workflow<br>[Details](#user-content-custwf)      | ✓                      | ✓                  | ✗          |        |      |            |        |
 
 ### Video playback features
@@ -120,7 +120,7 @@ TBD
 
 In the LMS, it is possible to set the permissions of an existing video in a way that it is publicly accessible. Additionally, a direct access URL is generated with can be handed over to non-LMS users for watching the video.
 
-### <a name="user-content-import"></a>Im- / export of LMS data 
+### <a name="user-content-backup-im-export"></a>Backup and Im- / export of Opencast stuff in LMS courses 
 
 The LMS is able to backup, import and export Opencast Series/Videos from one course to another either by event duplication or ACL Change method.
 
