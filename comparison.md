@@ -68,7 +68,6 @@ Please note that while this document tries hard to compare the features across t
 | ➞ LTI<br>[Details](#user-content-perms)                             | ✓         | ✗                                | ✓                         |        |      |            |        |
 | ➞ User Provider<br>[Details](#user-content-perms)                   | ✓         | ✗                                | ✓                         |        |      |            |        |
 | ➞ Shibboleth<br>[Details](#user-content-perms)                      | ✗         | ✓                                | ✗                         |        |      |            |        |
-| Enforcing permissions (against known IDs)              | ✓         | ✗                                | ✓                         |        |      |            |        |
 | Multi tenancy support<br>[Details](#user-content-tenants)           | ✓         | ✗                                | ✓                         |        |      |            |        |
 | Tracking protection circumvention<br>[Details](#user-content-track) | ✓ (Filter Plugin)         | ✗ (Not needed)                   | ✓                         |        |      |            |        |
 | Maintenance Support<br>[Details](#user-content-maintenance-support) | ✓         | ✗                  | ✗          |        |      |            |        |
@@ -188,9 +187,7 @@ The LMS must authenticate against Opencast. This can be achieved with multiple t
 
 The LMS and Opencast should share a common understanding which videos should be accessed by which user and which user has which role. This can be achieved with multiple technologies.
 
-### Enforcing permissions (against known IDs)
-
-TBD
+One way to achieve this, is to authenticate a user, f.e. with LTI, and add ACLs for this user. Typically there are ACLs for courses or even single events and only those the user has listed access is granted.
 
 ### <a name="user-content-tenants"></a>Multi tenancy support
 
